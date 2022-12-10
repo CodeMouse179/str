@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\str.c" />
     <ClCompile Include="..\test.c" />
   </ItemGroup>
   <ItemGroup>
