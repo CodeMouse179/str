@@ -15,4 +15,22 @@
 #ifndef CODEMOUSE_STR_H
 #define CODEMOUSE_STR_H
 
+//Windows Platform:
+#ifdef _WIN32
+#define SYSTEM_WINDOWS 1
+#endif
+#ifdef WIN32
+#define SYSTEM_WINDOWS 1
+#endif
+
+//Linux Platform:
+#ifdef __linux__
+#define SYSTEM_LINUX 1
+#endif
+
+//C++ Language:
+#ifdef __cplusplus
+#define SYSTEM_CXX 1
+#endif
+
 #endif
