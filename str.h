@@ -17,6 +17,12 @@
 #ifndef STR_H
 #define STR_H
 
+#define STR_VERSION_MAJOR 0
+#define STR_VERSION_MINOR 0
+#define STR_VERSION_PATCH 0
+#define STR_VERSION (STR_VERSION_MAJOR << 16 | STR_VERSION_MINOR << 8 | STR_VERSION_PATCH)
+#define STR_VERSION_STRING "0.0.0"
+
 //--------------------sys.h START--------------------
 
 #define SYS_VERSION_MAJOR 1
@@ -167,5 +173,11 @@
 #endif
 
 //--------------------sys.h END--------------------
+
+#ifndef NULL
+#define NULL ((void*)0)
+#endif
+
+int slen(const char* s);
 
 #endif
