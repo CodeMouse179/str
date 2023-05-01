@@ -1,19 +1,21 @@
-﻿//     +--------------------------------------------------------------------------------+
-//     |                                      str                                       |
-//     |  Introduction : Better string converter and utils for C11                      |
-//     |  Modified Date : 2022/12/10                                                    |
-//     |  License : MIT                                                                 |
-//     |  Source Code : https://github.com/CodeMouse179/str                             |
-//     |  Readme : https://github.com/CodeMouse179/str/blob/main/README.md              |
-//     |                                                                                |
-//     |                             Designer : CodeMouse179                            |
-//     |  Email : codemouse179@gmail.com                                                |
-//     |  Github : https://github.com/CodeMouse179                                      |
-//     |  Bilibili : https://space.bilibili.com/3461577785215838                        |
-//     +--------------------------------------------------------------------------------+
+﻿//      +--------------------------------------------------------------------------------+
+//      |                                      str                                       |
+//      |  Modified Date : 2023/5/1                                                      |
+//      |  Introduction : str                                                            |
+//      |  License : MIT                                                                 |
+//      |  Platform : Windows, Linux, macOS                                              |
+//      |  C Required Version : C 11                                                     |
+//      |  API Family : https://github.com/CodeMouse179/sys                              |
+//      |  Repository : https://github.com/CodeMouse179/str                              |
+//      |                                                                                |
+//      |                             Designer : CodeMouse179                            |
+//      |  Email : codemouse179@gmail.com                                                |
+//      |  Github : https://github.com/CodeMouse179                                      |
+//      |  Bilibili : https://space.bilibili.com/3461577785215838                        |
+//      +--------------------------------------------------------------------------------+
 
-#ifndef CODEMOUSE_STR_H
-#define CODEMOUSE_STR_H
+#ifndef STR_H
+#define STR_H
 
 //Windows Platform:
 #ifdef _WIN32
